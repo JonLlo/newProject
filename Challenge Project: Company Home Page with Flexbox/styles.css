@@ -1,0 +1,57 @@
+/* Section 1 */
+
+.nav_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    border: 2px solid blue;
+  }
+  
+  .links {
+    margin-right: 15px;
+  }
+  
+  .links ul {
+    display:flex;
+    flex-direction:row;
+    
+  }
+  .links ul li {
+    margin-left: 20px;
+    
+  }
+  
+  .icon {
+    display: flex;
+    background-color: green;
+    height: 40px;
+    width: 40px;
+    align-self: center;
+    border-radius: 100%;
+    margin-left: 10px;
+  }
+  
+  /* Section 2 */
+  
+  
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .player_container{
+    display:flex;
+    flex-direction:column;
+    padding-top:0px;
+    border: 2px solid blue;
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  .player_container_d img{
+    margin: 260px;
+  
+  }
+  
+  

@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'Nova Square';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/novasquare/v24/RrQUbo9-9DV7b06QHgSWsahHT4ICGcWB.woff2) format('woff2');
+   }
+   
+  .colours button {
+    background-color: black;
+    text-align: center;
+    display: inline-flex;
+    padding: 13.7%;
+    border: 4px solid;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 14px;
+    margin: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    font-weight: bolder;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  button:hover {
+    cursor:pointer;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+  }
+  
+  *{
+    text-align:center;
+  }
+  
+  .colours #splak {
+    border-color: #91992a;
+    color: #91992a;
+  }
+  
+  .colours #smosh {
+    border-color: #59f90e;
+    color: #59f90e;
+  }
+  
+  .colours #plaithe {
+    border-color: #e6ed84;
+    color: #e6ed84;
+  }
+  
+  .colours #glant {
+    border-color: #ad74af;
+    color: #ad74af;
+  }
+  
+  .colours #xathe {
+    border-color: #6a6ee8;
+    color: #6a6ee8;
+  }
+  
+  .colours #roi {
+    border-color: #8d0faf;
+    color: #8d0faf;
+  }
+  
+  .colours {
+    margin-bottom: 30px;
+  }
+  /*fonts*/
+  
+  .fonts #tim {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+  
+  }
+  .fonts #imp {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:normal;
+  
+  }
+  .fonts #cou {
+    font-family: 'Courier New', Courier, monospace;
+    
+  }
+  
+  .fonts #nov {
+     font-family: 'Nova Square';
+    
+  }
+  
+  .fonts {
+    display: inline-block;
+
+  }
+
+  
+  .fonts h2{
+    display: inline;
+    
+  }
+  .fonts h2:hover{
+    color: lightgreen;
+    
+  }
+  
+  .fonts p {
+    display:inline-block;
+    margin:20px;
+    padding: 20px;
+    border: 40px solid;
+    border-radius: 1%;
+    border-width: 2px;
+    font-size: 30px;
+  
+  }
+  
+  .fonts p:hover {
+    background-color: lightgreen;
+  }

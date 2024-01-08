@@ -1,0 +1,146 @@
+body {
+  background-color: black;
+  font-family: helvetica;
+  width:1400px;
+}
+
+#links {
+  display: flex;
+}
+
+.header {
+  display:flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  width:1400px;
+  
+  
+
+}
+
+h3 {
+  color: blue;
+  margin-right: 20px; 
+  font-family:impact
+  
+}
+.image-container {
+  margin-left: 175px;
+  margin-right: 175px;
+  
+}
+
+
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+  display: flex;
+  margin: 10px solid blue;
+
+ 
+
+}
+
+
+#cereal {
+
+  display: block;
+  position: relative;
+  height: 700px;
+
+ 
+
+}
+#bannercereal {
+  color: gray;
+  position: relative;
+  background-color: black;
+  display: block;
+  width: 1050px;
+  text-align: center;
+  transform: translateY(-390px);
+  padding-top: 0.5px;
+  padding-bottom: 0.5px;
+
+}
+#bannertea {
+  color: gray;
+  position: relative;
+  background-color: black;
+  display: block;
+  width: 1050px;
+  text-align: center;
+  transform: translateY(-100px);
+  padding-top: 0.5px;
+
+}
+
+.fives {
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: center;
+  position: absolute;
+
+  transform: translateY(-100px);
+
+ 
+}
+
+
+.fives img {
+  width: 300px;
+  height: 200px;
+  margin: 0 32px 20px 0;/* Adjust the margin value as needed for the desired space */
+
+}
+
+.fives h4{
+ color:gray;
+text-align: center;
+transform: translateY(-39px);
+}
+
+
+
+
+#coffee {
+  width: 1050px;
+  height: 700px;
+  transform: translateY(500px);
+
+}
+
+#bannercoffee {
+  color: green;
+  position: relative; /* Position the text absolutely within the relative container */
+  display: block;
+  width: 1050px; /* Make the text fill the container width */
+  text-align: center;
+  top: 50%; /* Position the text 50% from the top */
+  transform: translateY(1500%); /* Center the text vertically */
+  padding-top: 0.5px;
+  z-index: 1;
+}
+
+#bannercoffee_2 {
+  color: gray;
+  position: relative;
+  background-color: black;
+  display: block;
+  width: 1050px;
+  height:200px;
+  text-align: center;
+  transform: translateY(297px);
+  padding-top: 0.5px;
+
+}
+
+#cop {
+  color: blue;
+  position: absolute; /* Position absolutely within the body */
+  margin-top: 100px; /* Adjust the margin-top value as needed */
+  margin-right: 2000px; /* Set the margin-left to 20px */
+  z-index: 3;
+}

@@ -1,0 +1,56 @@
+body {
+
+  background: black;
+}
+
+#header1 {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 69px;
+  align-items: center;
+
+}
+#header1 img {
+  height: 50px;
+  margin-left: 10px;
+
+}
+/* NAV */
+
+header nav ul {
+  display: flex;
+
+}
+
+header nav ul li {
+  display: flex;
+  margin: 20px;
+  font-size: 20px;
+}
+
+/* MAIN */
+
+#main {
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  max-width: 1200px;
+  background: url("imgs/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0 auto;
+}
+
+#maintext {
+  width: 100%;
+  background: #000;
+  align-items: center;
+  color: gray;
+  text-align: center;
+  
+}

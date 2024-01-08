@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+</head>
+  
+<body>
+	<section class = "container">
+  	<img src = "nket.png" id= "myImage">
+  	<p onclick="blooming()">Codecademy</p>
+	</section>
+
+  <!-- Paste your code in the script element below:  -->
+  <script>
+    function blooming() {
+  var image = document.getElementById('myImage');
+  if (image.src.match("nket")) {
+    image.src = "hwang.png";
+  } else {
+    image.src = "nket.png";
+  } 
+}   
+		
+  </script>
+</body>  
+</html>
